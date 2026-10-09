@@ -39,3 +39,13 @@ While building this project, I learned how to connect a frontend with a Python b
 ## Future Improvements
 
 I would like to add proper user authentication, improve error handling, and add more features for searching and managing orders.
+
+## Live Demo
+
+Try the deployed Order Assistant here:
+
+**Live Application:** https://order-assistant-1pzg.onrender.com
+
+The application is deployed on Render. The backend uses FastAPI, and the AI assistant uses Groq with tool calling to answer order-related questions.
+
+**Note:** The free hosting service may take a little time to respond after being inactive.
