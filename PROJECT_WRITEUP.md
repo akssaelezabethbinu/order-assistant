@@ -16,6 +16,16 @@ I added input validation to ensure that questions are not empty and are within t
 
 I pushed my project to GitHub and deployed it using Render. I tested the live website by asking for the status of order ORD-1001, and the assistant returned the correct status.
 
+## Agent Tool Selection
+
+The AI agent uses Groq's language model with function calling. It provides two tools: `find_order` to retrieve a specific order and `analyze_orders` to calculate order statistics. The model uses `tool_choice="auto"` to select the appropriate tool based on the user's question. Tool results are returned to the model so it can explain the answer in simple English.
+
+## AI Tools Used
+
+- **Groq API:** Runs the language model used by the deployed order assistant.
+- **ChatGPT:** Assisted with development guidance, debugging, documentation, and testing.
+- **Pytest:** Runs automated tests for order lookup and order statistics.
+
 ## 5. Future Improvements
 
 I would like to add secure login, better order search, automated testing, and stronger checks to make AI responses more reliable.
